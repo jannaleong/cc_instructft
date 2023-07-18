@@ -8,5 +8,5 @@
 3) run batch_convert_jsonl.py to get a jsonl file of neatly formatted question and answer pairs. The answers will be saved in myfile.jsonl.
 4) convert myfile.jsonl to json using the command below
    ```bash
-   jq -s . <myfile2.jsonl > 18jul_vicuna.json
+   jq -s . <myfile.jsonl > 18jul_vicuna.json
    ```

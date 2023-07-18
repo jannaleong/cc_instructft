@@ -18,9 +18,10 @@ for filename in os.listdir(directory):
         dir_len = len(directory)
         collated_converted_ans.extend(convert_ans_to_finetune_form(f))
 
-file1.write("[" + '\n')
+
 for line in collated_converted_ans:
-    file1.write("   " + line + "," + '\n')
-file1.write("]")
+    file1.write(line + '\n')
+
 file1.close()
+
 

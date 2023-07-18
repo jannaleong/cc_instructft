@@ -6,4 +6,7 @@
 1) place jsonl file/files containing vicuna response in text_vicuna_answers folder
 2) run batch_convert_jsonl.py to convert all jsonl files in text_vicuna_answers folder to json format
 3) run batch_convert_jsonl.py to get a jsonl file of neatly formatted question and answer pairs. The answers will be saved in myfile.jsonl.
-4) convert myfile.jsonl to json(eg. using a converter online)
+4) convert myfile.jsonl to json using the command below
+   ```bash
+   jq -s . <myfile2.jsonl > 18jul_vicuna.json
+   ```

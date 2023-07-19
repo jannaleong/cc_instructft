@@ -1,5 +1,5 @@
 # Converting vicuna's response to formatted QA pairs to finetune the model
-##Purpose
+## Purpose
 - The code for fine-tuning the vicuna model must take in a JSON file format with question and answer pairs instead of JSONL format given by vicunas response
 - This file will be able to help convert our output into a JSON file to be used for fine-tuning.
 
